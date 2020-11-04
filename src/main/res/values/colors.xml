@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#5460A2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_one_color">#8904BA</color>
+    <color name="tab_three_color">#1354EA</color>
+    <color name="tab_two_color">#F29F0F</color>
+    <color name="tab_five_color">#E33636</color>
+    <color name="tab_four_color">@color/colorPrimaryManager</color>
+
+    <color name="colorPrimaryManager">#1fc533</color>
+    <color name="colorAccentManager">#1fc533</color>
+    <color name="colorPrimaryDarkManager">#009300</color>
+
+    <color name="colorPrimaryBooster">@color/tab_two_color</color>
+    <color name="colorAccentBooster">#ba7100</color>
+    <color name="colorPrimaryDarkBooster">@color/tab_two_color</color>
+
+    <color name="colorTransparentBackground">#801354EA</color>
+    <color name="colorPrimaryDarkCooler">#002cb6</color>
+    <color name="colorAccentCooler">@color/tab_three_color</color>
+    <color name="colorPrimaryCooler">@color/tab_three_color</color>
+
+    <color name="colorPrimaryCleaner">@color/tab_five_color</color>
+    <color name="colorPrimaryDarkCleaner">#a9000f</color>
+    <color name="colorAccentCleaner">@color/tab_five_color</color>
+    <color name="colorDarkGray">#ffeae8e8</color>
+    <color name="colorBackground">#ffeef0f1</color>
+    <color name="colorCardHeader">#4DE33636</color>
+
+    <color name="primary">@color/tab_one_color</color>
+    <color name="primary_dark">@color/tab_one_color</color>
+    <color name="accent">#FF4081</color>
+
+    <color name="level2_item_background">#FCFCFC</color>
+
+</resources>

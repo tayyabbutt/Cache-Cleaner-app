@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/primary</item>
+    </style>
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="AppManagerActionBarStyleWithoutShadow" >
+        <item name="background">@color/colorPrimaryManager</item>
+        <item name="elevation">1dp</item>
+        <item name="titleTextStyle">@style/Title</item>
+    </style>
+    <style name="AppManagerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/AppManagerActionBarStyleWithoutShadow</item>
+        <item name="colorAccent">@color/colorAccentManager</item>
+        <item name="colorPrimary">@color/colorPrimaryManager</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkManager</item>
+    </style>
+    <style name="Title">
+        <item name="elevation">0dp</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="BoosterActionBarStyleWithoutShadow">
+        <item name="background">@color/colorPrimaryBooster</item>
+        <item name="elevation">0dp</item>
+        <item name="titleTextStyle">@style/Title</item>
+    </style>
+    <style name="BoosterTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/BoosterActionBarStyleWithoutShadow</item>
+        <item name="colorAccent">@color/colorAccentBooster</item>
+        <item name="colorPrimary">@color/colorPrimaryBooster</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBooster</item>
+    </style>
+    <style name="CleanerActionBarStyleWithShadow">
+        <item name="background">@color/colorPrimaryCleaner</item>
+        <item name="titleTextStyle">@style/Title</item>
+    </style>
+    <style name="CleanerActionBarStyleWithoutShadow">
+        <item name="background">@color/colorPrimaryCleaner</item>
+        <item name="elevation">0dp</item>
+        <item name="titleTextStyle">@style/Title</item>
+    </style>
+    <style name="CleanerTheme"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CleanerActionBarStyleWithShadow</item>
+        <item name="colorAccent">@color/colorAccentCleaner</item>
+        <item name="colorPrimary">@color/colorPrimaryCleaner</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCleaner</item>
+    </style>
+    <style name="CleanerThemeWithoutShadow"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/CleanerActionBarStyleWithoutShadow</item>
+        <item name="colorAccent">@color/colorAccentCleaner</item>
+        <item name="colorPrimary">@color/colorPrimaryCleaner</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCleaner</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="CoolerActionBarStyleWithoutShadow">
+        <item name="background">@color/colorPrimaryCooler</item>
+        <item name="elevation">0dp</item>
+        <item name="titleTextStyle">@style/Title</item>
+    </style>
+    <style name="CoolerTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/CoolerActionBarStyleWithoutShadow</item>
+        <item name="colorAccent">@color/colorAccentCooler</item>
+        <item name="colorPrimary">@color/colorPrimaryCooler</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCooler</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/content"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:layout_constraintBottom_toTopOf="@+id/remove"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10.0dip"
+            android:drawableTop="@drawable/ic_cleaner"
+            android:text="@string/content_not_found"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/content"
+            app:layout_constraintStart_toStartOf="@+id/content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button xmlns:n4="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/remove"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryCleaner"
+            android:padding="20.0dip"
+            android:text="@string/remove"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16.0sp"
+            android:visibility="gone"
+            n4:layout_constraintBottom_toBottomOf="parent"
+            n4:layout_constraintEnd_toEndOf="parent"
+            n4:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

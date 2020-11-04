@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n1:drawable="@drawable/round_background"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:drawable="@drawable/ic_audio" n2:left="15.0dip" n2:top="15.0dip" n2:right="15.0dip" n2:bottom="15.0dip"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</layer-list>

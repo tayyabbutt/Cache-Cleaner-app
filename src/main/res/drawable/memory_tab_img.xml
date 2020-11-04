@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"
+        android:drawable="@drawable/memory_boost_selected_icon" /> <!-- pressed -->
+    <item android:state_selected="false"
+        android:drawable="@drawable/memory_boost_normal_icon" /> <!-- focused -->
+</selector>
